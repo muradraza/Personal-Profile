@@ -57,9 +57,9 @@ const ServicesSection = () => {
           Comprehensive expertise in no-code solutions, CMS platforms, and digital tools
           to build powerful websites and applications without writing code.
         </p>
-
+{/* mt-8 flex gap-3 overflow-x-auto whitespace-nowrap pb-2 sm:flex-wrap sm:justify-center */}
         {/* Categories Tabs */}
-        <div className="mt-8 flex gap-3 overflow-x-auto whitespace-nowrap pb-2 sm:flex-wrap sm:justify-center">
+        <div className="flex flex-wrap justify-center gap-3 mb-12">
           {categories.map((cat) => (
             <button
               key={cat}
