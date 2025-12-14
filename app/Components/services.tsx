@@ -45,21 +45,21 @@ const ServicesSection = () => {
       : services.filter(service => service.category === activeTab);
 
   return (
-    <section id='service' className="bg-white py-20 h-screen flex items-center justify-center">
+    <section id='service' className="bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 text-center">
 
         {/* Heading */}
-        <h2 className="text-4xl font-semibold text-gray-900">
+        <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900">
           🛠️ My Toolkit
         </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+        <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg text-gray-600">
           Comprehensive expertise in no-code solutions, CMS platforms, and digital tools
           to build powerful websites and applications without writing code.
         </p>
 
         {/* Categories Tabs */}
-        <div className="mt-10 flex flex-wrap justify-center gap-3">
+        <div className="mt-8 flex gap-3 overflow-x-auto whitespace-nowrap pb-2 sm:flex-wrap sm:justify-center">
           {categories.map((cat) => (
             <button
               key={cat}
@@ -76,7 +76,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+        <div className="mt-14 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
           {filteredServices.map((service, index) => (
             <div
               key={index}
@@ -86,7 +86,7 @@ const ServicesSection = () => {
                   : 'bg-white text-gray-900 border-gray-200'
               }`}
             >
-              <div className="text-lg font-semibold">
+              <div className="text-base sm:text-lg font-semibold">
                 {service.name}
               </div>
 
