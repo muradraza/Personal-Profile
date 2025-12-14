@@ -3,7 +3,7 @@
 const HeroSection = () => {
   return (
     <section
-            className="min-h-[calc(100vh-4rem)] relative overflow-hidden pt-20 flex items-center justify-center h-screen"
+            className="min-h-[calc(100vh-4rem)] relative overflow-hidden pt-20 flex items-center justify-center"
     >
       {/* Background */}
       <div className="absolute inset-0 z-0">

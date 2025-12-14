@@ -59,7 +59,7 @@ const BlogPage = () => {
       : blogs.filter(blog => blog.category === activeTab);
 
   return (
-    <section id='blog' className="bg-white py-20 min-h-screen flex items-center justify-center">
+    <section id='blog' className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-4 text-center">
 
         {/* Heading */}

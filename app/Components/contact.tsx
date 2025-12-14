@@ -2,7 +2,7 @@
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="bg-white py-20 h-screen flex items-center justify-center">
+    <section id="contact" className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
 

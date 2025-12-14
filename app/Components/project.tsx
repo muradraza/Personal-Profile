@@ -38,7 +38,7 @@ const ProjectsSection = () => {
       : projects.filter(project => project.category === activeTab);
 
   return (
-    <section id="projects" className="bg-gray-900 py-20 min-h-screen flex flex-col items-center">
+    <section id="projects" className="bg-gray-900 py-20">
       <div className="mx-auto max-w-7xl px-4 text-center">
 
         {/* Heading */}

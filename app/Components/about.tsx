@@ -14,7 +14,7 @@
 
 const AboutSection = () => {
   return (
-    <section id="about" className="bg-white py-20 h-screen flex items-center justify-center">
+    <section id="about" className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid gap-16 lg:grid-cols-2 items-start">
 
