@@ -26,48 +26,55 @@ const AboutSection = () => {
               </span>
             </h2>
 
-            <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              I'm <span className="font-semibold text-blue-500">Talib Pirani</span>, a passionate
-              Full Stack No-Code Developer with hands-on experience building scalable
-              web apps, e-commerce stores, and automation solutions. I specialize in
-              <span className="font-medium text-blue-500"> Bubble.io</span>,
-              <span className="font-medium text-blue-500"> Lovable.dev</span>, and
-              <span className="font-medium text-blue-500"> Windsurf.com</span> for
-              no-code development, along with
-              <span className="font-medium text-blue-500"> WordPress</span>,
-              <span className="font-medium text-blue-500"> Shopify</span>,
-              <span className="font-medium text-blue-500"> Squarespace</span>, and
-              <span className="font-medium text-blue-500"> Wix</span> for CMS projects.
-            </p>
+            <p className="text-gray-600">
+  I am <span className="font-semibold text-blue-500">Murad Raza</span>, a
+  dedicated Full-Stack No-Code Engineer with strong hands-on expertise in
+  developing resilient
+  <span className="font-medium text-blue-500"> web applications</span>,
+  <span className="font-medium text-blue-500"> online stores</span>, and
+  <span className="font-medium text-blue-500"> intelligent automation systems</span>.
+  My primary focus includes no-code platforms such as
+  <span className="font-medium text-blue-500"> Bubble.io</span>,
+  <span className="font-medium text-blue-500"> Lovable.dev</span>, and
+  <span className="font-medium text-blue-500"> Windsurf.com</span>, in addition to
+  building CMS-based solutions with
+  <span className="font-medium text-blue-500"> WordPress</span>,
+  <span className="font-medium text-blue-500"> Shopify</span>,
+  <span className="font-medium text-blue-500"> Squarespace</span>, and
+  <span className="font-medium text-blue-500"> Wix</span>.
+</p>
 
-            <p className="mt-4 text-gray-600">
-              I build powerful automations and workflows using
-              <span className="font-medium text-blue-500"> ChatGPT</span>,
-              <span className="font-medium text-blue-500"> N8N</span>, and
-              <span className="font-medium text-blue-500"> Make</span>, and integrate
-              APIs like
-              <span className="font-medium text-blue-500"> Stripe</span>,
-              <span className="font-medium text-blue-500"> Twilio</span>, and
-              <span className="font-medium text-blue-500"> Google APIs</span>
-              to create seamless, efficient solutions.
-            </p>
+<p className="mt-4 text-gray-600">
+  I architect and implement advanced automation flows and operational pipelines
+  using
+  <span className="font-medium text-blue-500"> ChatGPT</span>,
+  <span className="font-medium text-blue-500"> N8N</span>, and
+  <span className="font-medium text-blue-500"> Make</span>, while seamlessly
+  connecting third-party services through APIs such as
+  <span className="font-medium text-blue-500"> Stripe</span>,
+  <span className="font-medium text-blue-500"> Twilio</span>, and
+  <span className="font-medium text-blue-500"> Google APIs</span> to deliver
+  efficient, high-performance digital solutions.
+</p>
 
-            <p className="mt-4 text-gray-600">
-              Over the years, I’ve delivered projects ranging from
-              <span className="font-medium text-blue-500"> finance apps</span> and
-              <span className="font-medium text-blue-500"> e-commerce platforms</span>
-              to
-              <span className="font-medium text-blue-500"> AI-driven tools</span>,
-              always focusing on clean, maintainable solutions that improve
-              user experience.
-            </p>
+<p className="mt-4 text-gray-600">
+  Throughout my professional journey, I have successfully delivered products
+  ranging from
+  <span className="font-medium text-blue-500"> fintech platforms</span> and
+  <span className="font-medium text-blue-500"> scalable e-commerce systems</span>
+  to
+  <span className="font-medium text-blue-500"> AI-powered applications</span>,
+  consistently prioritizing clarity, sustainability, and exceptional usability.
+</p>
 
-            <p className="mt-4 text-gray-600">
-              I enjoy <span className="font-medium text-blue-500">mentoring</span>,
-              <span className="font-medium text-blue-500"> process optimization</span>,
-              and continuous learning, and I’d love to help your business turn ideas
-              into fully functional, user-friendly applications.
-            </p>
+<p className="mt-4 text-gray-600">
+  Beyond development, I am deeply engaged in
+  <span className="font-medium text-blue-500"> mentoring</span>,
+  <span className="font-medium text-blue-500"> workflow optimization</span>, and
+  continuous learning, and I am eager to help businesses transform ideas into
+  polished, intuitive, and fully operational digital products.
+</p>
+
           </div>
 
           {/* RIGHT CONTENT */}

@@ -41,7 +41,10 @@ const ServicesSection = () => {
 
   return (
     <section className="bg-white py-20">
-      <div className="mx-auto max-w-7xl px-4 text-center">
+      <div className="mx-auto max-w-7xl px-4 text-center">+
+
+         {/* Heading */}
+        <h2 className="text-4xl mb-8 font-semibold text-dark">🛠️ My Service</h2>
 
         {/* Tabs */}
         <div className="flex flex-wrap justify-center gap-3 mb-14">
