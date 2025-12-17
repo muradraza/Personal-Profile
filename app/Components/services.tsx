@@ -40,7 +40,7 @@ const ServicesSection = () => {
       : services.filter(service => service.category === activeTab);
 
   return (
-    <section className="bg-white py-20">
+    <section id='service' className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-4 text-center">+
 
          {/* Heading */}
